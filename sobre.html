@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre o Projeto | Saúde em Dia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sobre o Projeto</h1>
+    <p>Conheça os bastidores do “Saúde em Dia”</p>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="desinformacao.html">Desinformação</a>
+      <a href="alimentacao.html">Alimentação</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h2>O que é este projeto?</h2>
+      <p>“Saúde em Dia” é um projeto de extensão universitária desenvolvido por João Felipe Araujo Alves, estudante de Análise e Desenvolvimento de Sistemas da UNIGRANRIO. O projeto tem como foco a conscientização da população quanto às fake news relacionadas à alimentação, utilizando um blog informativo como ferramenta educativa.</p>
+
+      <h2>Objetivo principal</h2>
+      <p>Combater a desinformação sobre alimentação e promover o acesso à informação confiável, contribuindo para hábitos alimentares mais saudáveis e conscientes.</p>
+
+      <h2>Público-alvo</h2>
+      <p>O conteúdo do blog é voltado para o público em geral, especialmente usuários da internet que consomem conteúdos sobre saúde e nutrição em redes sociais, vídeos ou aplicativos de mensagens.</p>
+
+      <h2>Como foi desenvolvido?</h2>
+      <ul>
+        <li>Levantamento de fontes confiáveis (Guia Alimentar, OMS, OPAS, Fiocruz)</li>
+        <li>Criação de textos explicativos com linguagem acessível</li>
+        <li>Programação do blog em HTML, CSS e JavaScript</li>
+        <li>Testes de responsividade e visualização</li>
+      </ul>
+
+      <h2>Fontes utilizadas</h2>
+      <ul>
+        <li>Guia Alimentar para a População Brasileira – Ministério da Saúde</li>
+        <li><a href="https://www.paho.org/pt" target="_blank">Organização Pan-Americana da Saúde (OPAS)</a></li>
+        <li><a href="https://portal.fiocruz.br/" target="_blank">Fiocruz – Fundação Oswaldo Cruz</a></li>
+        <li>Publicações científicas e reportagens checadas</li>
+      </ul>
+
+      <h2>Autor</h2>
+      <p><strong>João Felipe Araujo Alves</strong><br>Aluno do curso de Análise e Desenvolvimento de Sistemas – UNIGRANRIO</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 João Felipe Araujo Alves | Projeto de Extensão - UNIGRANRIO</p>
+  </footer>
+
+  <!-- Botão de voltar ao topo -->
+  <button id="btnTopo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+  <script>
+    window.addEventListener('scroll', function () {
+      const btn = document.getElementById('btnTopo');
+      btn.style.display = (window.scrollY > 300) ? 'block' : 'none';
+    });
+  </script>
+</body>
+</html>
